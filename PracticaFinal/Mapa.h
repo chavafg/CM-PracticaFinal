@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Mapa.h
 //  PracticaFinal
 //
 //  Created by chava on 8/20/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface Mapa : UIViewController
+- (IBAction)backPressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *backBtn;
 
 @end
-
